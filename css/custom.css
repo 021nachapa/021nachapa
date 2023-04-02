@@ -1,0 +1,32 @@
+#navbar_top.fixed-top {
+    right: initial;
+    left: inherit;
+    background-color: #222831;
+    width: 100%;
+}
+
+.custom_nav-container .navbar-nav .nav-item {
+    min-width: max-content;
+}
+
+.navbar .navbar-collapse {
+    justify-content: end !important;
+}
+
+.map_container iframe {
+    margin: 0 auto;
+    display: table;
+}
+
+.heading_container h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.footer-info a {
+    color: #fff;
+}
+
+.footer-info a:hover {
+    color: #ffbe33;
+}
