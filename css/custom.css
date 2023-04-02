@@ -1,9 +1,25 @@
 #navbar_top.fixed-top {
     right: initial;
     left: inherit;
-    background-color: #222831;
     width: 100%;
+    background-color: #222831;
 }
+
+@media (max-width:991px) {
+    #navbar_top {
+        background-color: #222831;
+    }
+
+    .navbar-brand span {
+        font-size: 28px;
+    }
+
+    .header_section {
+        padding: 0;
+    }
+
+}
+
 
 .custom_nav-container .navbar-nav .nav-item {
     min-width: max-content;
@@ -29,4 +45,22 @@
 
 .footer-info a:hover {
     color: #ffbe33;
+}
+
+@media (max-width: 575px) {
+    .navbar > .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+
+
+.filters-content .all {
+    margin-bottom: 30px;
+}
+
+.food_section .box .detail-box {
+    max-height: 200px;
+    min-height: 200px;
 }
